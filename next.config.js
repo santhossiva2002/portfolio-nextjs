@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',                       
-  basePath: '/portfolio-nextjs',          
-  assetPrefix: '/portfolio-nextjs/',      
+
   eslint: {
-    ignoreDuringBuilds: true,             
+    ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },          
-  trailingSlash: true,                   
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
